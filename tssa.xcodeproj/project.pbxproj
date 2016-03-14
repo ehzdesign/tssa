@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8047DBDF1C96617A007CE8B9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8047DBDE1C96617A007CE8B9 /* .gitignore */; };
 		80DB95CA1C89625200F22CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB95C91C89625200F22CE4 /* AppDelegate.swift */; };
 		80DB95CC1C89625200F22CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB95CB1C89625200F22CE4 /* ViewController.swift */; };
 		80DB95CF1C89625200F22CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DB95CD1C89625200F22CE4 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		80DB95D41C89625200F22CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DB95D21C89625200F22CE4 /* LaunchScreen.storyboard */; };
 		80DB95DF1C89625200F22CE4 /* tssaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB95DE1C89625200F22CE4 /* tssaTests.swift */; };
 		80DB95EA1C89625200F22CE4 /* tssaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB95E91C89625200F22CE4 /* tssaUITests.swift */; };
+		80DB95FA1C8E6CB400F22CE4 /* wizardQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB95F91C8E6CB400F22CE4 /* wizardQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8047DBDE1C96617A007CE8B9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		80DB95C61C89625200F22CE4 /* tssa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tssa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DB95C91C89625200F22CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80DB95CB1C89625200F22CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		80DB95E51C89625200F22CE4 /* tssaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tssaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DB95E91C89625200F22CE4 /* tssaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tssaUITests.swift; sourceTree = "<group>"; };
 		80DB95EB1C89625200F22CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DB95F91C8E6CB400F22CE4 /* wizardQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wizardQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		80DB95BD1C89625200F22CE4 = {
 			isa = PBXGroup;
 			children = (
+				8047DBDE1C96617A007CE8B9 /* .gitignore */,
 				80DB95C81C89625200F22CE4 /* tssa */,
 				80DB95DD1C89625200F22CE4 /* tssaTests */,
 				80DB95E81C89625200F22CE4 /* tssaUITests */,
@@ -103,6 +108,7 @@
 				80DB95D01C89625200F22CE4 /* Assets.xcassets */,
 				80DB95D21C89625200F22CE4 /* LaunchScreen.storyboard */,
 				80DB95D51C89625200F22CE4 /* Info.plist */,
+				80DB95F91C8E6CB400F22CE4 /* wizardQuestion.swift */,
 			);
 			path = tssa;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8047DBDF1C96617A007CE8B9 /* .gitignore in Resources */,
 				80DB95D41C89625200F22CE4 /* LaunchScreen.storyboard in Resources */,
 				80DB95D11C89625200F22CE4 /* Assets.xcassets in Resources */,
 				80DB95CF1C89625200F22CE4 /* Main.storyboard in Resources */,
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80DB95CC1C89625200F22CE4 /* ViewController.swift in Sources */,
+				80DB95FA1C8E6CB400F22CE4 /* wizardQuestion.swift in Sources */,
 				80DB95CA1C89625200F22CE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +495,7 @@
 				80DB95F01C89625200F22CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80DB95F11C89625200F22CE4 /* Build configuration list for PBXNativeTarget "tssaTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				80DB95F31C89625200F22CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80DB95F41C89625200F22CE4 /* Build configuration list for PBXNativeTarget "tssaUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +513,7 @@
 				80DB95F61C89625200F22CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
